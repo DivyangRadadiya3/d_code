@@ -1,0 +1,141 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #252525;
+}
+
+#signIn {
+  margin-top: 12%;
+  border-radius: 15px;
+  background-color: inherit;
+  box-shadow: 0 0.9px 2.2px white, 0 0.7px 5.3px white;
+}
+
+.title {
+  color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 2vh 0vw;
+}
+
+.form {
+  padding: 2vh 1vw 2vh 1vw;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.form button {
+  border-radius: 15px;
+  padding: 1vh 2vw;
+}
+
+.login {
+  width: 30vw;
+  margin-top: 8%;
+  margin-left: 35%;
+  border-radius: 15px;
+}
+
+.login label {
+  font-size: 1.3rem;
+}
+
+.detail {
+  margin-left: 35%;
+  font-size: 3rem;
+}
+
+.header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  transition: 0.2s;
+}
+
+.header span.logo {
+  font-size: 3.1rem;
+  font-weight: lighter;
+  color: yellow;
+}
+
+.main {
+  display: block;
+  margin: 25vh 3vw 10vh 0px;
+  width: 100%;
+}
+
+.head {
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  margin: 3vh 0vw;
+}
+
+th {
+  font-size: 1.4rem;
+  font-weight: lighter;
+}
+
+td {
+  font-size: 1.2rem;
+  color: white;
+}
+
+th,
+td {
+  max-width: 20px;
+  height: 2px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+th span {
+  float: right;
+}
+
+.card {
+  margin: auto;
+  border-radius: 30px;
+  width: 500px;
+  word-break: break-all;
+  text-align: justify;
+  user-select: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* navbar */
+.nav_left {
+  background-color: white;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.nav-tabs .nav_link {
+  margin: 0 30px 0 40px;
+  padding: 1vh 1vw;
+}
+
+.nav-tabs {
+  border: inherit;
+}
+
+@media (min-width: 640px) {}
+@media (min-width: 768px) {}
+@media (min-width: 1024px) {}
+@media (min-width: 1280px) {}
+@media (min-width: 1536px) {}
