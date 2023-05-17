@@ -1,1 +1,1 @@
-git init = create new repos.
+git init = create new repos
