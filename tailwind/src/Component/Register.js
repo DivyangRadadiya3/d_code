@@ -57,24 +57,57 @@ function Home() {
                   } else {
                     await createUserWithEmailAndPassword(auth, email, password)
                       .then((userData) => {
-                        try {
-                          localStorage.setItem("uid", userData.user.uid);
-                        } catch (e) {
-                          console.log(e);
-                        }
-                        fireDb
-                          .child(`User/${userData.user.uid}`)
-                          .set(state, (err) => {
-                            if (err) {
-                              toast.error(err.message);
-                            } else {
-                              toast.success("Account Created Successfully...");
-                              setTimeout(() => {
-                                navigate("/Login");
-                              }, [3000]);
-                            }
-                          });
+                        fireDb.child(`User/${userData.user.uid}`).set(state, (err) => {
+                          if (err) {
+                            toast.error(err.message);
+                          } else {
+                            toast.success("Account Created Successfully...");
+                            setTimeout(() => {
+                              navigate("/Login");
+                            }, [3000]);
+                          }
+                        });
                       })
+                      //   if (!userData.uid) {
+                      //     fireDb.child("Registration").push(state, (err) => {
+                      //       if (err) {
+                      //         toast.error(err.message);
+                      //       } else {
+                      //         toast.success("Account Created Successfully...");
+                      //         setTimeout(() => {
+                      //           navigate("/Login");
+                      //         }, [3000]);
+                      //       }
+                      //     });
+                      //   } else {
+                      //     fireDb
+                      //       .child(`Registration/${id}`)
+                      //       .set(state, (err) => {
+                      //         if (err) {
+                      //           alert(err);
+                      //         } else {
+                      //           alert("Details Updated Successfully !!!");
+                      //           navigate("/TableData");
+                      //           fname = "";
+                      //           email = "";
+                      //           contact = "";
+                      //           password = "";
+                      //         }
+                      //       });
+                      //   }
+                      //   fireDb
+                      //     .child(`User/${userData.user.uid}`)
+                      //     .set(state, (err) => {
+                      //       if (err) {
+                      //         toast.error(err.message);
+                      //       } else {
+                      //         toast.success("Account Created Successfully...");
+                      //         setTimeout(() => {
+                      //           navigate("/Login");
+                      //         }, [3000]);
+                      //       }
+                      //     });
+                      // })
                       .catch((error) => {
                         toast.error(error.message);
                       });

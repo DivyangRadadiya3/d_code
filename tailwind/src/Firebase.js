@@ -4,12 +4,13 @@ import { getAuth } from "firebase/auth";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDhZdydKzd35twGqiIhaEbV1QYAwOf8w0A",
-  authDomain: "react-login-a33c7.firebaseapp.com",
-  projectId: "react-login-a33c7",
-  storageBucket: "react-login-a33c7.appspot.com",
-  messagingSenderId: "780768102201",
-  appId: "1:780768102201:web:7a65ba7d5fbb3f52078ae8",
+  apiKey: "AIzaSyBABse0NAcQZ8odCQfWzrpvEiIx_2Y86sE",
+  authDomain: "fir-c8970.firebaseapp.com",
+  projectId: "fir-c8970",
+  storageBucket: "fir-c8970.appspot.com",
+  messagingSenderId: "874737821963",
+  appId: "1:874737821963:web:bf1092f9c4320d636b1a0e",
+  measurementId: "G-T5K1ZHTZ78"
 };
 
 const fireDb = firebase.initializeApp(firebaseConfig);

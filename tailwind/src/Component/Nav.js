@@ -10,11 +10,11 @@ export default function Nav() {
 
   return (
     <>
-      <nav className="shadow bg-white  dark:bg-gray-900">
+      <nav className="shadow bg-white dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <div className="flex items-center">
             <FaDatabase className="bg-gradient-to-br text-yellow-400  h-10 w-7 mr-3" />
-            <p className="self-center text-4xl  whitespace-nowrap dark:text-white">
+            <p className="self-center text-4xl whitespace-nowrap dark:text-white">
               Firebase
             </p>
           </div>
@@ -38,17 +38,17 @@ export default function Nav() {
           <div
             className={`${
               toggle ? "block" : "hidden"
-            }  w-full  md:block  md:w-auto`}
+            }  w-full  md:block md:w-auto`}
           >
             <ul
-              className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 
-              rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 
-            md:dark:bg-gray-900 dark:border-gray-700"
+              className="font-medium flex flex-col md:flex-row md:space-x-8 p-4 md:p-0 mt-4 
+              border border-gray-100 rounded-lg bg-gray-50 md:mt-0 md:border-0 md:bg-white 
+              dark:bg-gray-80 md:dark:bg-gray-900 dark:border-gray-700"
             >
               <li>
                 <NavLink to="/Home">
                   <span
-                    className="block py-2 pl-3 pr-4 text-blue-700 text-xl md:bg-transparent 
+                    className="block  py-2 pl-3 pr-4 text-blue-700 text-xl md:bg-transparent 
                     md:text-blue-700 md:p-0 hover:border-b-2 hover:border-yellow-500"
                   >
                     Home
