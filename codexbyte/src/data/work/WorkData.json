@@ -1,0 +1,26 @@
+[
+    {   "id": 1,
+        "thumb": "/images/icon/open-box.png",
+        "title": "Our Transparency",
+        "designation": "We believe in maintaining complete transparency while working on any business decision-making process."
+      
+    },
+    {   "id": 2,
+        "thumb": "/images/icon/check.png",
+        "title": "Our Fairness",
+        "designation": "Every project is equally important for us and we give our best, whether it is a big or small client requirement."
+      
+    },
+    {   "id": 3,
+        "thumb": "/images/icon/graph.png",
+        "title": "Our Accountability",
+        "designation": "We solve your business requirements as if it is our own which creates a great sense of accountability."
+      
+    },
+    {   "id": 4,
+        "thumb": "/images/icon/target.png",
+        "title": "Our Focus",
+        "designation": "Our prime focus has always been to constantly put effort into and drive the growth of the client’s business."
+      
+    }
+]
