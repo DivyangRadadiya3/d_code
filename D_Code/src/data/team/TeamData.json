@@ -1,0 +1,66 @@
+[
+    {   "id": 1,
+        "thumb": "/images/team/i1.png",
+        "title": "Our Transparency",
+        "designation": "We believe in maintaining complete transparency while working on any business decision-making process.",
+        "description": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {   "id": 2,
+        "thumb": "/images/team/i2.png",
+        "title": "Our Fairness",
+        "designation": "Every project is equally important for us and we give our best, whether it is a big or small client requirement.",
+        "description": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {   "id": 3,
+        "thumb": "/images/team/i3.png",
+        "title": "Our Fairness",
+        "designation": "We solve your business requirements as if it is our own which creates a great sense of accountability.",
+        "description": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {   "id": 4,
+        "thumb": "/images/team/i4.png",
+        "title": "Our Fairness",
+        "designation": "Our prime focus has always been to constantly put effort into and drive the growth of the client’s business.",
+        "description": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    }
+]
